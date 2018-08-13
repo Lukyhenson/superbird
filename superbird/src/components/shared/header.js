@@ -12,10 +12,12 @@ export default class Header extends Component {
 	}
 
 	render() {
+		const { title } = this.state
+
 		return(
 			<div className="headerBar">
-				<h4>{this.state.title}</h4>
+				<h4>{title}</h4>
 			</div>
-		);
+		)
 	}
 }
